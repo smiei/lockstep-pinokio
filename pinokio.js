@@ -1,5 +1,5 @@
 module.exports = {
-  version: "3.7",
+  version: "7.0",
   title: "SoulLink Nuzlocke Tracker",
   description:
     "Track Pokémon Nuzlocke runs solo or as a SoulLink for 2-4 players: encounters, team, deaths, level caps, catch rates. https://github.com/smiei/nuzlocke_tracker",

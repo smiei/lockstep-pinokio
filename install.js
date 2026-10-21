@@ -4,6 +4,12 @@ const { DATABASE_URL } = require("./db.js")
 // script do the rest: database migrations, the one-time sprite and badge
 // download, and the production build.
 module.exports = {
+  // Git and Node.js come from Pinokio's "Coding (Essential)" bundle. Declaring
+  // it makes Pinokio offer to install it first, instead of the first command
+  // failing with "conda not found" on a fresh Pinokio.
+  requires: {
+    bundle: "dev",
+  },
   run: [
     {
       method: "shell.run",
