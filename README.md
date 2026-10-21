@@ -4,17 +4,20 @@ One-click install for the [SoulLink Nuzlocke Tracker](https://github.com/smiei/n
 
 ## Install
 
-1. Install [Pinokio](https://pinokio.co/).
-2. In Pinokio, open **Download from URL** and paste:
+1. Install [Pinokio](https://pinokio.co/). On its first start, choose a short home folder without spaces, such as `C:\pinokio`.
+2. On Pinokio's **Explore** page, paste this into the **GitHub or Hugging Face URL** field and click **Go**:
 
    ```
    https://github.com/smiei/nuzlocke-tracker-pinokio
    ```
 
+   Older Pinokio versions call this **Download from URL** on the **Discover** page.
 3. Click **Install**.
-   - The first install downloads the app, its packages and the Pokémon sprites, then builds it.
-   - This takes a few minutes, mostly the sprites.
+   - If Pinokio asks to install **Coding (Essential)** (Git and Node.js), confirm it.
+   - The first install downloads the app, its packages and the Pokémon sprites, then builds it. This takes a few minutes, mostly the sprites.
 4. Click **Start**, then **Open Tracker**.
+
+Do not use **Ask → Download → Import task**: that imports a Pinokio *task*, which is something different from an app.
 
 Other devices on your network (your phone, a friend's laptop) can open the tracker at this computer's IP address and the port shown in the terminal.
 

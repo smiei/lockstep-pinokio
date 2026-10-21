@@ -2,9 +2,14 @@
 /app/
 # Your runs - never commit them
 /data/
-# Pinokio's own working files
+# Pinokio's own working files, written into every installed launcher
 /logs/
 /cache/
 /env/
+/ENVIRONMENT
+/AGENTS.md
+/CLAUDE.md
+/GEMINI.md
+/QWEN.md
 *.log
 .DS_Store
