@@ -1,0 +1,10 @@
+# The tracker itself, cloned by install.js
+/app/
+# Your runs - never commit them
+/data/
+# Pinokio's own working files
+/logs/
+/cache/
+/env/
+*.log
+.DS_Store
