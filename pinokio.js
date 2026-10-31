@@ -1,8 +1,8 @@
 module.exports = {
   version: "7.0",
-  title: "SoulLink Nuzlocke Tracker",
+  title: "Lockstep",
   description:
-    "Track Pokémon Nuzlocke runs solo or as a SoulLink for 2-4 players: encounters, team, deaths, level caps, catch rates. https://github.com/smiei/nuzlocke_tracker",
+    "SoulLink & Nuzlocke tracker. Track Pokémon Nuzlocke runs solo or as a SoulLink for 2-4 players: encounters, team, deaths, level caps, catch rates. https://github.com/smiei/lockstep",
   icon: "icon.png",
   menu: async (kernel, info) => {
     // app/.next only exists once setup finished its build.
@@ -30,7 +30,7 @@ module.exports = {
       const local = info.local("start.js")
       if (local && local.url) {
         return [
-          { default: true, icon: "fa-solid fa-rocket", text: "Open Tracker", href: local.url, popout: true },
+          { default: true, icon: "fa-solid fa-rocket", text: "Open Lockstep", href: local.url, popout: true },
           { icon: "fa-solid fa-terminal", text: "Terminal", href: "start.js" },
         ]
       }

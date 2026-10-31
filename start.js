@@ -1,7 +1,7 @@
 const { DATABASE_URL } = require("./db.js")
 
 // Start the built tracker on a free port and hand its address to the menu's
-// "Open Tracker" entry (pinokio.js reads it back via info.local("start.js")).
+// "Open Lockstep" entry (pinokio.js reads it back via info.local("start.js")).
 module.exports = {
   daemon: true,
   run: [

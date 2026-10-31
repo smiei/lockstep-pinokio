@@ -1,15 +1,15 @@
 {
-  "title": "SoulLink Nuzlocke Tracker",
-  "description": "Track Pokémon Nuzlocke runs solo or as a SoulLink for 2-4 players: encounters, team, deaths, level caps, catch rates. Live on every device in your network.",
+  "title": "Lockstep",
+  "description": "SoulLink & Nuzlocke tracker. Track Pokémon Nuzlocke runs solo or as a SoulLink for 2-4 players: encounters, team, deaths, level caps, catch rates. Live on every device in your network.",
   "icon": "icon.png",
   "links": [
     {
-      "title": "Tracker on GitHub",
-      "value": "https://github.com/smiei/nuzlocke_tracker"
+      "title": "Lockstep on GitHub",
+      "value": "https://github.com/smiei/lockstep"
     },
     {
       "title": "Launcher on GitHub",
-      "value": "https://github.com/smiei/nuzlocke-tracker-pinokio"
+      "value": "https://github.com/smiei/lockstep-pinokio"
     }
   ]
 }

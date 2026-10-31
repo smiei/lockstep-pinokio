@@ -1,6 +1,6 @@
 const { DATABASE_URL } = require("./db.js")
 
-// Clone the tracker into app/, install its packages, then let its own setup
+// Clone Lockstep into app/, install its packages, then let its own setup
 // script do the rest: database migrations, the one-time sprite and badge
 // download, and the production build.
 module.exports = {
@@ -14,7 +14,7 @@ module.exports = {
     {
       method: "shell.run",
       params: {
-        message: "git clone https://github.com/smiei/nuzlocke_tracker app",
+        message: "git clone https://github.com/smiei/lockstep app",
       },
     },
     {
